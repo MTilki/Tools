@@ -10,7 +10,7 @@ def main():
     else:
         print("No match")
 
-    restart = input("Search again? [Y/N]: ").upper()
+    restart = input("Compare again? [Y/N]: ").upper()
     if restart== "Y":
         main()
     else:

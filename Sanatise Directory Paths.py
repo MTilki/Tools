@@ -44,6 +44,6 @@ def sanitize_paths(root_dir):
             print(f"Warning: Path length exceeds {MAX_PATH_LENGTH} characters: {dirpath}")
 
 # Specify the root directory to sanitize
-root_directory = "/path/to/your/directory"  # Change to your target directory
+root_directory = "/Documents/Uni 2"  # Change to your target directory
 
 sanitize_paths(root_directory)
